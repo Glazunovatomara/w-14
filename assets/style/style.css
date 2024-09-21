@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #7fd9ff54
+}
+.subtitle,
+.text {
+    padding: 20px;
+    border-top: solid;
+    border-left:solid;
+}
+.subtitle:last-of-type,
+.text:last-of-type {
+    border-bottom:solid;
+}
+.text {
+    display: flex;
+    align-items: center;
+    border-right: solid;
+    font-weight: 600;
+}
